@@ -1,0 +1,142 @@
+html{
+    scroll-behavior: smooth;
+}
+img{
+    width: 30%;
+    height: auto;
+    margin: auto;
+    position: relative;
+    border-radius: 25%;
+    padding-bottom: 1rem;
+}
+p{
+    font-family: 'Monofett', cursive;
+    font-size: 2rem;
+    position: relative;
+    padding: 1%;
+}
+.home-content{
+    text-align: left;
+    color: black;
+}
+body{
+    text-align: center;
+    margin: 0;
+}
+table{
+    width: 100%;
+}
+tr{
+    width: 50%;;
+}
+#div0{
+    background-color: #61764B;
+    padding-bottom: 1rem;
+    color: #16003B;
+}
+#div1{
+    background-color: #9BA17B;
+    padding-bottom: 1rem;
+    color: #100720;
+}
+#div2{
+    background-color: #61764B;
+    padding-bottom: 1rem;
+    color: #16003B;
+}
+#div3{
+    background-color: #9BA17B;
+    padding-bottom: 1rem;
+    color: #100720;
+}
+#div4{
+    background-color: #61764B;
+    padding-bottom: 1rem;
+    color: #16003B;
+}
+#div5{
+    background-color: #9BA17B;
+    padding-bottom: 1rem;
+    color: #100720;
+}
+#div6{
+    background-color: #61764B;
+    padding-bottom: 1rem;
+    color: #16003B;
+}
+#div7{
+    background-color: #9BA17B;
+    padding-bottom: 1rem;
+    color: #100720;
+}
+#div8{
+    background-color: #61764B;
+    padding-bottom: 1rem;
+    color: #16003B;
+}
+#div9{
+    background-color: #9BA17B;
+    padding-bottom: 1rem;
+    color: #100720;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+}
+.navbar.sticky{
+    padding: 15px 0;
+    background: #1DB954;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .logo a span{
+    color:#1DB954;
+    transition: all 0.3s ease;
+}
+.navbar.sticky .logo a span{
+    color: white;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    display: block;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+    color: #1DB954;
+}
+.navbar.sticky .menu li a:hover{
+    color: black;
+}
+footer{
+    background: #111;
+    padding: 70px 20px;
+    color: #fff;
+    text-align: center;
+}
+footer span a{
+    color: #1DB954;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
